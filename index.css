@@ -1,0 +1,487 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+body{
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(15px);
+}
+nav img {
+    width: 15%;
+
+}
+
+nav {
+    padding: 20px 50px;
+    display: grid;
+    background-color: #ffff;
+    border-bottom: 2px solid lightgray;
+    position: fixed;
+    grid-template-columns: 0.6fr 2fr 0.6fr;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+nav .nav ul li a pre{
+    display: inline-block;
+    transform: rotate(180deg);
+    color: darkslategrey;
+    font-size: 1.5rem;
+    padding: 0px 5px;
+    font-weight: bolder;
+}
+.nav ul li a pre:hover{
+    color: #7B3FE4;
+}
+
+nav .nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+nav .nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+nav .nav ul li a:hover {
+    color: #7B3FE4;
+}
+
+nav .btn {
+    margin: 20px;
+}
+
+nav .btn a {
+    text-decoration: none;
+    background-color: #6B37C7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #ffff;
+}
+
+.section-one {
+    padding: 50px;
+    background: linear-gradient(to left, #E0E9FB, #DCD4FD);
+}
+
+.sect-one {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.sect-one h1 {
+    font-size: 5rem;
+    margin-top: 150px;
+}
+
+.sect-one p {
+    color: grey;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+.sect-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.sect-two .div {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sect-three {
+    background-color: #ffff;
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+
+.part-one {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    flex-shrink: 0;
+    animation: slider 20s linear infinite;
+}
+
+.part-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    flex-shrink: 0;
+    animation: slider 20s linear infinite;
+}
+.sect-three h1{
+    margin-bottom: 5px;
+}
+.sect-three p{
+    color: grey;
+}
+
+.part-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    animation: slider 20s linear infinite;
+}
+
+.section-two {
+    width: 93%;
+    background: linear-gradient(to right, #7B3FE4, #6B37C7);
+    padding: 50px;
+    color: gainsboro;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid #6B37C7;
+    border-radius: 20px;
+}
+
+.section-two .text h2 {
+    font-size: 4rem;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+.section-two .text p {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+
+}
+
+.section-two .text ul {
+    margin-bottom: 70px;
+}
+
+.section-two .text ul li {
+    padding: 10px;
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+.section-two .text a {
+    text-decoration: none;
+    color: darkslategray;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    background-color: #ffff;
+}
+
+.section-two .img {
+    margin-top: 100px;
+}
+.section-four{
+    display: grid;
+    background-color: #E0E9FB;
+    width: 93%;
+    margin: auto;
+    padding: 55px;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
+.section-four .dapps{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: grid;
+    overflow-y: scroll;
+    grid-template-rows: 0.5fr 1fr 1fr;
+   
+}
+.section-four h2{
+    color: #57575F;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+.section-four p{
+    color: grey;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    margin-bottom: 130px;
+}
+.section-four .content a{
+    color: #ffff;
+    text-decoration: none;
+    background-color: #6B37C7;
+    padding: 20px;
+    border-radius: 35px;
+}
+.set-one{
+    width: 70%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.set-two{
+    display: grid;
+    width: 300%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.set-three{
+    display: grid;
+    width: 300%;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+
+.section-four img{
+    width: 100%;
+    padding: 20px;
+}
+.explore {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(3px);
+    padding: 60px 90px;
+    top: 25%;
+    left: 15%;
+    border-radius: 70px;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+}
+.explore a{
+    background-color: #6B37C7;
+    padding: 15px;
+    color: snow;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.section-five {
+    text-align: center;
+}
+.section-five h1{
+    font-size: 2rem;
+    margin: 20px 0;
+   
+}
+.section-five p {
+    margin: 20px 0;
+}
+.flexbox{
+    text-align: left;
+    display: grid;
+    cursor: pointer;
+    width: 93%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+.flexbox div{
+    border: 0.1px solid #57575F;
+    padding: 25px;
+}
+.flexbox a{
+    text-decoration: none;
+    color: #6B37C7;
+    background: lightgrey;
+    padding: 5px;
+}
+.section-six{
+    margin: 100px 0;
+    text-align: center;
+
+}
+.section-six h1{
+    margin-bottom: 40px;
+    color: #2F2F3A;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.features{
+    width: 90%;
+    margin: auto;
+    grid-gap: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.features img{
+    width: 30%;
+    margin: 30px 0; 
+}
+.features h3{
+    margin-bottom: 20px;
+    color: #2F2F3A;
+}
+.features p{
+    color: #57575F;
+}
+.section-seven{
+    margin: auto;
+    width: 92%;
+    margin-bottom: 100px;
+    background-color: #193D45;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: snow;
+    border-radius: 20px;
+}
+.section-seven h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.section-seven p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+.section-seven a{
+    text-decoration: none;
+    color: #193D45;
+    background-color: snow;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+.section-eight{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.section-eight h1{
+    color: #2F2F3A;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.options{
+    width: 92%;
+    cursor: pointer;
+    margin: auto;
+    text-align: left;
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+}
+.options h2{
+    color: #2F2F3A;
+    margin-bottom: 10px;
+}
+.options p{
+    color: #57575F;
+}
+.options .inner{
+   display: grid;
+   padding: 20px;
+   border: 0.1px solid #57575F;
+   grid-template-columns: 1fr 2fr 1fr;
+}
+.options img{
+    width: 70%;
+}
+.last-section{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    grid-template-columns: 1fr 1fr;
+}
+.last-section img{
+    width: 10%;
+    margin-bottom: 10px;
+
+}
+.last-section h2{
+    color: #2F2F3A;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.last-section p{
+    color: #57575F;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.last-section a{
+    color: #6B37C7;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer{
+background-color: #0A0A0D;
+color: snow;
+}
+footer .footer-nav {
+    background-color: #1B1B22;
+    color: snow;
+    padding: 40px;
+}
+footer .footer-nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+}
+footer img{
+    width: 5%;
+}
+footer .footer-logo{
+    padding: 50px;
+    display: flex;
+
+}
+.hr{
+    padding: 40px;
+}
+hr{
+    border-color: #57575F;
+}
+footer .footer-logo .logo{
+    display: flex;
+}
+.logo h1{
+    margin: 10px;
+    font-size: 2rem;
+}
+.text p{
+    font-size:  2rem;
+}
+.footer-logo .text {
+    text-align: right;
+    color: #2F2F3A;
+}
+.footer-links{
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer-links div h3{
+    margin-bottom: 10px;
+}
+.footer-links ul li{
+    list-style: none;
+    color: #57575F;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.last-footer{
+    padding: 40px;
+    display: flex;
+}
+.last-footer h3{
+    width: 80%;
+}
+@keyframes slider {
+    100% {
+        transform: translate(-180%);
+    }
+}
